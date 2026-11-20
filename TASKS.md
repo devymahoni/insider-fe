@@ -28,7 +28,7 @@ Status: `[ ]` pending · `[-]` in progress · `[x]` completed.
 ## Delivery requirements
 
 The assessment email requests a public GitHub repository shared by reply within three days.
-Repository publication and email delivery are separate from the implementation tasks above.
+The public repository is available at [devymahoni/insider-fe](https://github.com/devymahoni/insider-fe), with the local `main` branch tracking `origin/main`. Email delivery remains a separate step.
 
 ## Latest validation
 
@@ -36,4 +36,4 @@ Repository publication and email delivery are separate from the implementation t
 - E2E: two complete user-flow scenarios passed.
 - Visual: two scenarios passed against four Chromium/macOS reference screenshots.
 - TypeScript, production build and Prettier checks passed.
-- GitHub Actions defines Linux functional checks and macOS visual comparisons. Remote CI has not been run yet.
+- GitHub Actions runs Linux quality/E2E checks and macOS visual comparisons on pushes and pull requests. See the [workflow history](https://github.com/devymahoni/insider-fe/actions/workflows/ci.yml) for remote results.
